@@ -1,0 +1,622 @@
+/* tag html */
+* {
+    font-family: 'Helvetica';
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background: #F1F3FF;
+}
+
+ul li {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 27.8px;
+    color: black;
+}
+
+.offcanvas-title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.container h1 {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+/* class html */
+
+.limegreen {
+    background-color: #5CB85F;
+    color: #fff;
+}
+
+.limegreen:hover {
+    background-color: #5CB85F;
+}
+
+.grow {
+    position: absolute;
+    display: flex;
+    left: 50px;
+}
+
+.bear {
+    color: black;
+    border-radius: 5px;
+    transition: all 0.8s ease 0s;
+}
+
+.bear:hover {
+    margin-top: 5px;
+    background-color: #5CB85F;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+    -webkit-transition: 1.4s ease;
+    transition: 1.4s ease;
+}
+
+.car {
+    width: 458px;
+    position: absolute;
+    right: 0;
+    margin-top: 18px;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.careless {
+    background: #F1F3FF;
+}
+
+.sewa {
+    width: 800px;
+    height: 200px;
+    padding: 50px;
+    margin-left: 150px;
+    border-radius: 13px;
+    background: #0D28A6;
+    color: #fff;
+}
+
+
+.sewa h1 {
+    color: #fff;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sewa p {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    margin-top: 13px;
+    font-size: 8px;
+}
+
+.tanos h4 {
+    color: #fff;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sewa button {
+    margin-top: 22px;
+    background-color: #5CB85F;
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.sewa button:hover {
+    color: black;
+    background-color: #5CB85F;
+}
+
+.mx {
+    margin-left: 8%;
+}
+
+/* footer */
+.text-reset i {
+    background-color: #0D28A6;
+}
+
+.rayo {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.mixnav {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.mx-auto p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cronus span {
+    font-family: 'Helvetica';
+    line-height: 50px;
+}
+
+.sect1 h2 {
+    margin-top: 25px;
+    color: black;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.col-md-6 h1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.col-sm-12 p {
+    font-style: normal;
+    text-align: justify;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.text-center h1 {
+    margin-top: 5%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.ran h1 {
+    margin-top: 5%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.ran p {
+    margin-top: 1%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .col-md-3 .card {
+        margin-top: 20px;
+    }
+
+    .yiw .yaw {
+        margin-right: 25px;
+    }
+
+    .car {
+        max-width: 95%;
+    }
+
+    .box {
+        display: flex;
+        position: relative;
+        width: 635px;
+        height: 400px;
+        right: 145px;
+        top: 50px;
+    }
+
+    .rembo {
+        height: 106.6vh;
+        width: 100%;
+        background-color: #F1F3FF;
+    }
+
+    .mulai {
+        border-radius: 18px;
+    }
+
+    .sewa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 520px;
+        height: 220px;
+        left: 8px;
+    }
+
+    .box h1 {
+        color: white;
+    }
+
+    .option select {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 4px;
+        width: 520px;
+        height: 56px;
+        position: relative;
+        top: 0px;
+    }
+
+    .img-area img {
+        padding-left: 50px;
+    }
+
+    .vhone img {
+        width: 100%;
+    }
+
+    .cronus img {
+        margin: 9px;
+    }
+
+    .service img {
+        width: 73%;
+    }
+
+    .cronus span {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .col-md-6 h1 {
+        margin-left: 5px;
+    }
+
+    .col-sm-12 p {
+        margin-left: 5px;
+    }
+
+    .growy a i {
+        margin-left: 240px;
+    }
+
+    .adu p {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .why h1 {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .why p {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .card-body img {
+        margin-left: 6px;
+    }
+
+    .melow {
+        margin-left: 0px;
+    }
+
+    .amans {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text-dark {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 6px;
+    }
+
+    .mt-2 {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 550px;
+    }
+
+    .sewa p {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .tanos h4 {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .yoi {
+        border-radius: 14px;
+        width: 578px;
+        height: 270px;
+    }
+
+    .day {
+        margin-left: 230px;
+    }
+
+    .rans {
+        margin-left: 10px;
+    }
+
+    .rans i {
+        position: relative;
+        top: 1px;
+        left: 227px;
+    }
+
+    .carbona button {
+        position: relative;
+        top: 2255px;
+    }
+
+    .trun h1 {
+        width: 100%;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .trun p {
+        width: 100%;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+    }
+
+    .vr95 {
+        position: absolute;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .vr46 {
+        position: absolute;
+        margin-top: 40px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .vr93 {
+        position: absolute;
+        margin-top: 80px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .our {
+        position: absolute;
+        margin-top: 100px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .our1 {
+        position: absolute;
+        margin-top: 138px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .our2 {
+        position: absolute;
+        margin-top: 170px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .our3 {
+        position: absolute;
+        margin-top: 200px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .koneksi p {
+        position: absolute;
+        margin-top: 210px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .panghao {
+        position: absolute;
+        margin-top: 232px;
+        left: 40px;
+    }
+
+    .jinton {
+        position: absolute;
+        margin-top: 240px;
+        left: 33px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .rental {
+        position: absolute;
+        margin-top: 280px;
+        left: 33px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .rembo {
+        height: 690px;
+        width: 100%;
+        background-color: #F1F3FF;
+    }
+
+    .sewa {
+        position: absolute;
+        width: 430px;
+        height: 300px;
+    }
+
+    .mulai {
+        width: 430px;
+    }
+
+    .combo h1 {
+        margin-top: 110px;
+    }
+
+    .img-area img {
+        padding-top: 23px;
+    }
+
+    .starW {
+        position: relative;
+        right: 45px;
+        bottom: 30px;
+    }
+
+    .adu p {
+        position: relative;
+        bottom: 30px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .bagiduo strong {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .option select {
+        position: relative;
+        width: 470px;
+    }
+}
